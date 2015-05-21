@@ -1,6 +1,6 @@
 {
   "name": "primed",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Stateless React components based on GitHub's Primer CSS toolkit",
   "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)",
   "contributors": [],
