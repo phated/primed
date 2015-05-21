@@ -1,0 +1,47 @@
+{
+  "name": "primed",
+  "version": "0.0.0",
+  "description": "Stateless React components based on GitHub's Primer CSS toolkit",
+  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)",
+  "contributors": [],
+  "repository": "iceddev/primed",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install",
+    "prepublish": "webpack",
+    "example": "component-playground"
+  },
+  "dependencies": {
+    "classnames": "^2.1.1"
+  },
+  "peerDependencies": {
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel-core": "^5.4.5",
+    "babel-loader": "^5.1.3",
+    "bower": "^1.4.1",
+    "cosmos-js": "^0.6.3",
+    "css-loader": "^0.13.1",
+    "node-libs-browser": "^0.5.0",
+    "react": "^0.13.3",
+    "style-loader": "^0.12.2",
+    "webpack": "^1.9.7"
+  },
+  "keywords": [
+    "components",
+    "css",
+    "github",
+    "primer",
+    "react"
+  ]
+}
